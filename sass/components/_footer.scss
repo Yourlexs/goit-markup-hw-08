@@ -1,0 +1,108 @@
+footer {
+    background-color: $hero-bgr-color;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
+    color: $primary-white-color;
+}
+
+.footer-address__list {
+    font-style: normal;
+}
+
+.footer-address__link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-address__item{
+    @extend .footer-address__link;
+    color: $primary-white-color;
+}
+
+// Список соцсетей в футере
+
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: $primary-white-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.footer-social__link {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social__icon {
+    fill: $primary-white-color;
+}
+
+// Форма в футере
+
+.footer-form {
+    width: 570px;
+}
+
+.footer-form__title {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-white-color;
+}
+
+.mail-form {
+    display: flex;
+    align-items: center;
+}
+
+.mail-form__input {
+    width: 358px;
+    padding: 15px 0 15px 16px;
+    margin-right: 12px;
+
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.button__icon {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}

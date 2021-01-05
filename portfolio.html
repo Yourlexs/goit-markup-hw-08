@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/main.min.css" />
+        <title>Портфолио</title>
+    </head>
+    <body>
+        <!--шапка сайта-->
+        <header>
+            <div class="container main-nav">
+                <a href="/" class="logo"
+                    ><span class="accent"> Web</span>Studio</a
+                >
+                <nav class="site-nav">
+                    <ul class="nav-list">
+                        <li class="nav-list__item">
+                            <a href="./index.html" class="nav-list__link"
+                                >Студия</a
+                            >
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="" class="nav-list__link current"
+                                >Портфолио</a
+                            >
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="" class="nav-list__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="address-nav">
+                    <ul class="address-list">
+                        <li class="address-list__item">
+                            <a
+                                href="mailto:info@devstudio.com"
+                                class="address-list__link"
+                            >
+                                <svg class="icon-mail">
+                                    <use
+                                        href="./images/symbol-defs.svg#icon-envelope"
+                                    ></use>
+                                </svg>
+                                info@devstudio.com</a
+                            >
+                        </li>
+                        <li class="address-list__item">
+                            <a
+                                href="tel:+380961111111"
+                                class="address-list__link"
+                            >
+                                <svg class="icon-phone">
+                                    <use
+                                        href="./images/symbol-defs.svg#icon-smartphone"
+                                    ></use>
+                                </svg>
+                                +38 096 111 11 11</a
+                            >
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        </header>
+        <main>
+            <!--Портфолио-->
+            <section class="portfolio container">
+                <!-- Фильтр работ -->
+                <ul class="button-list">
+                    <li class="button-list__item">
+                        <button type="button" class="button-list__button">
+                            Все
+                        </button>
+                    </li>
+                    <li class="button-list__item">
+                        <button type="button" class="button-list__button">
+                            Веб-сайты
+                        </button>
+                    </li>
+                    <li class="button-list__item">
+                        <button type="button" class="button-list__button">
+                            Приложения
+                        </button>
+                    </li>
+                    <li class="button-list__item">
+                        <button type="button" class="button-list__button">
+                            Дизайн
+                        </button>
+                    </li>
+                    <li class="button-list__item">
+                        <button type="button" class="button-list__button">
+                            Маркетинг
+                        </button>
+                    </li>
+                </ul>
+                <!--Скрыть название секции-->
+                <!-- <h1>Примеры работ</h1> -->
+                <ul class="portfolio-list">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio.jpg"
+                                    alt="Дизайн веб-сайта Технокряк"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">Технокряк</h2>
+                                <p class="card-content__description">
+                                    Веб-сайт
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio1.jpg"
+                                    alt="Пример дизайна постера"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">
+                                    Постер New Orlean vs Golden Star
+                                </h2>
+                                <p class="card-content__description">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio2.jpg"
+                                    alt="Дизайна приложения Ресторан Seafood"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">
+                                    Ресторан Seafood
+                                </h2>
+                                <p class="card-content__description">
+                                    Приложение
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio3.jpg"
+                                    alt="Дизайн проекта Prime"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">
+                                    Проект Prime
+                                </h2>
+                                <p class="card-content__description">
+                                    Маркетинг
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio4.jpg"
+                                    alt="Приложение Boxes"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">
+                                    Проект Boxes
+                                </h2>
+                                <p class="card-content__description">
+                                    Приложение
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio5.jpg"
+                                    alt="Пример дизайна веб-сайта2"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">
+                                    Inspiration has no Borders
+                                </h2>
+                                <p class="card-content__description">
+                                    Веб-сайт
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio6.jpg"
+                                    alt="Дизайн издания Limited Edition"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">
+                                    Издание Limited Edition
+                                </h2>
+                                <p class="card-content__description">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio7.jpg"
+                                    alt="Дизайн проекта LAB"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">Проект LAB</h2>
+                                <p class="card-content__description">
+                                    Маркетинг
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link">
+                            <div class="thumb">
+                                <img
+                                    src="images/portfolio8.jpg"
+                                    alt=" Дизайн приложения Growing Business"
+                                />
+                                <div class="overlay">
+                                    <p class="overlay__description">
+                                        Технокряк это современная площадка
+                                        распространения коронавируса. Компании
+                                        используют эту платформу для цифрового
+                                        шпионажа и атак на защищённые сервера
+                                        конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-content__title">
+                                    Growing Business
+                                </h2>
+                                <p class="card-content__description">
+                                    Приложение
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!--футер-->
+        <footer>
+            <div class="container">
+                <div class="footer-address">
+                    <a href="/" class="logo footer__logo"
+                        ><span class="accent">Web</span>Studio</a
+                    >
+                    <ul class="footer-address__list">
+                        <li class="footer-address__item">
+                            г. Киев, пр-т Леси Украинки, 26
+                        </li>
+                        <li class="footer-address__item">
+                            <a
+                                href="mailto:info@devstudio.com"
+                                class="footer-address__link"
+                                >info@devstudio.com</a
+                            >
+                        </li>
+                        <li class="footer-address__item">
+                            <a
+                                href="tel:+380961111111"
+                                class="footer-address__link"
+                                >+38 096 111 11 11</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <p class="footer-social__title">присоединяйтесь</p>
+                    <ul class="social-list footer-social__list">
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link  footer-social__link">
+                                <svg class="social-list__icon footer-social__icon">
+                                    <use
+                                        href="./images/symbol-defs.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link  footer-social__link">
+                                <svg class="social-list__icon footer-social__icon">
+                                    <use
+                                        href="./images/symbol-defs.svg#icon-twitter"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link footer-social__link">
+                                <svg class="social-list__icon footer-social__icon">
+                                    <use
+                                        href="./images/symbol-defs.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="" class="social-list__link footer-social__link">
+                                <svg class="social-list__icon footer-social__icon">
+                                    <use
+                                        href="./images/symbol-defs.svg#icon-linkedin"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="footer-form">
+                    <p class="footer-form__title">Подпишитесь на рассылку</p>
+                    <div class="mail-form">
+                        <input
+                            type="email"
+                            class="mail-form__input"
+                            name="email"
+                            id="email"
+                            placeholder="E-mail"
+                        />
+                        <button type="submit" class="button">
+                            Подписаться
+                            <svg class="button__icon">
+                                <use
+                                    href="./images/iconModal-defs.svg#icon-send"
+                                ></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
