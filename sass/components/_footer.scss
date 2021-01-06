@@ -3,11 +3,16 @@ footer {
 }
 
 footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-address{
+    margin-bottom: 60px;
+    text-align: center;
 }
 
 .footer__logo {
@@ -36,7 +41,8 @@ footer .container {
 // Список соцсетей в футере
 
 .footer-social {
-    margin-left: 70px;
+    margin-bottom: 60px;
+    text-align: center;
 }
 
 .footer-social__title {
@@ -63,7 +69,8 @@ footer .container {
 // Форма в футере
 
 .footer-form {
-    width: 570px;
+    width: 450px;
+    text-align: center;
 }
 
 .footer-form__title {
@@ -78,15 +85,15 @@ footer .container {
     color: $primary-white-color;
 }
 
-.mail-form {
-    display: flex;
-    align-items: center;
-}
+// .mail-form {
+//     display: flex;
+//     align-items: center;
+// }
 
 .mail-form__input {
     width: 358px;
     padding: 15px 0 15px 16px;
-    margin-right: 12px;
+    margin-bottom: 20px;
 
     background-color: transparent;
     font-style: normal;

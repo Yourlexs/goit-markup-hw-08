@@ -1,27 +1,28 @@
 .about-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 60px 15px;
     background-color: $secondary-background-color;
 }
 
-.about-team__list {
-    display: flex;
-}
+// .about-team__list {
+//     display: flex;
+// }
 
 .about-team__item {
-    width: 270px;
+    width: 450px;
     background-color: $primary-white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
     &:not(:last-child) {
-    margin-right: 30px;
+    margin-bottom: 30px;
     }
 }
 
 .team-card {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    text-align: center;
 }
 
 /* Имена сотрудников */
@@ -34,7 +35,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
-    text-align: center;
 }
 
 /* Должности сотрудников */
@@ -45,13 +45,13 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
-    text-align: center;
 }
 
 /* Соц.сети */
 
 .social-list {
     display: flex;
+    justify-content: center;
 }
 
 .social-list__item:not(:last-child) {

@@ -1,15 +1,20 @@
 .client {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .client-list {
     display: flex;
-    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.client-list__item:not(:first-child) {
-    margin-left: 30px;
+.client-list__item {
+    flex-basis: calc((100% - 4 * 15px) / 2);
+
+    &:not(:nth-last-child(-n + 2)) {
+        margin-bottom: 30px;
+    }
 }
 
 .client-list__link{

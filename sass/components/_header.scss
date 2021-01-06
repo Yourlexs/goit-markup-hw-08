@@ -1,39 +1,96 @@
 .header {
-    margin-top: 0;
-    margin-bottom: 0;
+    position: relative;
 }
 
 // Навигация
 
-.container.main-nav {
+.main-nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     align-items: center;
 }
 
-.site-nav {
-    display: flex;
-    align-items: center;
+.menu-button {
+    display: inline-flex;
+    margin-left: 278px;
+    width: 40px;
+    height: 40px;
+    padding: 12px 8px;
+    background-color: transparent;
+    border: none;
 }
+.menu-icon {
+    width: 25px;
+    height: 18px;
+}
+
+.menu-close {
+    width: 18px;
+    height: 18px;
+    display: block;
+    fill: currentColor;
+}
+.menu-button.is-open .menu-close{
+    display: none;
+}
+
+.menu-open {
+    width: 24px;
+    height: 16px;
+    display: none;
+
+    fill: currentColor;
+}
+
+.menu-button.is-open .menu-open{
+    display: block;
+}
+
+.menu-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+
+    background-color: $primary-white-color;
+
+    border-top: 1px solid #ECECEC;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.menu-container.is-open {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+// .site-nav {
+//     display: flex;
+//     align-items: center;
+// }
 
 .nav-list {
-    display: flex;
+    // display: flex;
+    text-align: center;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0%;
+    padding-left: 0;
+    margin-bottom: 60px;
 }
+
 .nav-list__item:not(:last-child) {
-    margin-right: 50px;
+    margin-bottom: 40px;
 }
 
 .nav-list__link {
     position: relative;
-    display: block;
-    padding: 32px 0;
+    display: inline-block;
     color: $title-text-color;
+    padding-bottom: 8px;
     
     &:visited {
         color: $title-text-color;
@@ -45,7 +102,8 @@
 .address-list__link{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.menu-button:hover,
+.menu-button:focus,
 .nav-list__link:hover,
 .nav-list__link:focus,
 .nav-list__link.current,
@@ -69,17 +127,15 @@
 //adress list 
 
 .address-list {
-    display: flex;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    // display: flex;
+    text-align: center;
 }
-.address-nav {
-    margin-left: auto;
-}
+// .address-nav {
+//     margin-left: auto;
+// }
 
-.address-list__item:not(:last-child) {
-    margin-right: 50px;
+.address-list__item:not(:last-child){
+    margin-bottom: 16px;
 }
 
 .address-list__link {
@@ -87,8 +143,8 @@
     align-items: center;
     color: $primary-text-color;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
 }
 
