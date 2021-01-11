@@ -8,21 +8,17 @@
     padding-bottom: 118px;
 
     background-color: $hero-bgr-color;
-    background-image: linear-gradient(
-            to right,
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)
-        ),
-        url(../images/header-480.jpg);
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/header-480.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-        background-image: url(../images/header-480@2x.jpg);
+        background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+        url(../images/header-480@2x.jpg);
     }
     @media screen and (min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
-        background-image: url(../images/header-480@3x.jpg);
+        background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/header-480@3x.jpg);
     }
     
     @media screen and (min-width: 768px){
@@ -31,16 +27,24 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
-        url(../images/tablet/header.jpg);
+        url(../images/header-768.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
 
         @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-            background-image: url(../images/header-768@2x.jpg);
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ),url(../images/header-768@2x.jpg);
         }
         @media screen and (min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
-            background-image: url(../images/header-768@3x.jpg);
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ),url(../images/header-768@3x.jpg);
         }
     }
 
@@ -56,10 +60,18 @@
         background-repeat: no-repeat;
 
         @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-            background-image: url(../images/header-1200@2x.jpg);
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ),url(../images/header-1200@2x.jpg);
         }
         @media screen and (min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
-            background-image: url(../images/header-1200@3x.jpg);
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ),url(../images/header-1200@3x.jpg);
         }
     }
 }
