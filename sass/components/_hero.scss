@@ -13,16 +13,16 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
-        url(../images/mobile/header.jpg);
+        url(../images/header-480.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
     @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-        background-image: url(../images/mobile/header@2x.jpg);
+        background-image: url(../images/header-480@2x.jpg);
     }
     @media screen and (min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
-        background-image: url(../images/mobile/header@3x.jpg);
+        background-image: url(../images/header-480@3x.jpg);
     }
     
     @media screen and (min-width: 768px){
@@ -37,10 +37,10 @@
         background-repeat: no-repeat;
 
         @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-            background-image: url(../images/tablet/header@2x.jpg);
+            background-image: url(../images/header-768@2x.jpg);
         }
         @media screen and (min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
-            background-image: url(../images/tablet/header@3x.jpg);
+            background-image: url(../images/header-768@3x.jpg);
         }
     }
 
@@ -50,16 +50,16 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
-        url(../images/desktop/header.jpg);
+        url(../images/header-1200.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
 
         @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-            background-image: url(../images/desktop/header@2x.jpg);
+            background-image: url(../images/header-1200@2x.jpg);
         }
         @media screen and (min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
-            background-image: url(../images/desktop/header@3x.jpg);
+            background-image: url(../images/header-1200@3x.jpg);
         }
     }
 }
