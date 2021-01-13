@@ -315,7 +315,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    min-width: 480px;
   }
 }
 
@@ -591,10 +591,11 @@ img {
 }
 
 .features .container {
-  padding: 60px 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.features-list__item {
+.features-list {
   width: 450px;
 }
 
@@ -606,7 +607,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 450px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;

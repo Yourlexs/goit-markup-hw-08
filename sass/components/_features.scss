@@ -1,12 +1,15 @@
 .features .container {
-    padding: 60px 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-// .features-list {
-//     display: flex;
-// }
-.features-list__item {
+.features-list {
+    // display: flex;
     width: 450px;
+}
+
+.features-list__item {
+    // width: 450px;
 
     &:not(:last-child) {
         margin-bottom: 30px;
@@ -17,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
+    
     height: 120px;
     margin-bottom: 30px;
     background-color: $secondary-background-color;
