@@ -4,9 +4,13 @@
     background-color: $secondary-background-color;
 }
 
-// .about-team__list {
-//     display: flex;
-// }
+
+.about-team__list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 .about-team__item {
     background-color: $primary-white-color;
@@ -16,6 +20,10 @@
 
     &:not(:last-child) {
     margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 768px){
+        width: 454px;
     }
 }
 
