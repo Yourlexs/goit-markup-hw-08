@@ -14,23 +14,27 @@
 
 .features-list__item {
     // width: 450px;
-
     &:not(:last-child) {
         margin-bottom: 30px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 354px;
         &:nth-last-child(-n + 2){
             margin-bottom: 0;
         }
+        &:nth-child(2n + 1){
+            margin-right: 30px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+    width: 270px;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
     }
 }
-@media screen and (min-width: 768px) {
-    .features-list__item:nth-child(2n + 1){
-        margin-right: 30px;
-    }
-}
+
 .icon-background {
     display: flex;
     justify-content: center;
