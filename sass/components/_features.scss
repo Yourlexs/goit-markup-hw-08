@@ -4,8 +4,6 @@
 }
 
 .features-list {
-    // width: 450px;
-
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
@@ -13,12 +11,18 @@
 }
 
 .features-list__item {
-    // width: 450px;
-    &:not(:last-child) {
-        margin-bottom: 30px;
+    flex-basis: 450px;
+    
+    @media screen and (max-width: 767px){
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        flex-basis: 354px;
+        margin-bottom: 30px;
+
         &:nth-last-child(-n + 2){
             margin-bottom: 0;
         }
@@ -28,7 +32,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-    width: 270px;
+        flex-basis: 270px;
         &:not(:last-child) {
             margin-right: 30px;
         }
