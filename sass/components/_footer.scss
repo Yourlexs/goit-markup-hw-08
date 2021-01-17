@@ -58,6 +58,9 @@ footer .container {
 .footer-address__item{
     @extend .footer-address__link;
     color: $primary-white-color;
+    &:not(:last-child) {
+        padding-bottom: 8px;
+    }
 }
 
 // Список соцсетей в футере
@@ -147,7 +150,7 @@ footer .container {
     border-radius: 4px;
 
     @media screen and (min-width: 1200px) {
-        width: 458px;
+        width: 358px;
         margin-right: 12px;
     }
 }
