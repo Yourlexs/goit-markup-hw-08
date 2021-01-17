@@ -4,7 +4,8 @@
     align-items: center;
     margin: auto;
     padding: 10px 28px;
-    width: 200px;
+
+    max-width: 200px;
 
     color: $primary-white-color;
     background-color: $accent-color;
