@@ -1,6 +1,10 @@
 // Общие свойства всего документа
 
 body {
+    padding-top: 60px;
+    @media screen and (min-width: 768px) {
+        padding-top: 80px;
+    }
     color: $primary-text-color;
     background-color: $primary-white-color;
     font-family: $primary-font;

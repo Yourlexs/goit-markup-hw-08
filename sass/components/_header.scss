@@ -1,5 +1,14 @@
 .header {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-width: 60px;
+    @media screen and (min-width: 768px) {
+        min-width: 80px
+    }
+    background-color: $primary-white-color;
+    z-index: 1;
 }
 
 // Навигация
@@ -135,7 +144,7 @@
     padding-bottom: 8px;
 
     @media screen and (min-width: 768px) {
-        padding-bottom: 28px;
+        padding-bottom: 33px;
     }
     
     &:visited {
@@ -174,8 +183,11 @@
 
 .address-nav {
     @media screen and (max-width: 1199px) {
-        text-align: center;
         padding-top: 21px;
+    }
+    
+    @media screen and (max-width: 767px) {
+        text-align: center;
     }
 }
 

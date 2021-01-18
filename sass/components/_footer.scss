@@ -21,10 +21,9 @@ footer .container {
 }
 
 .footer-address{
-    text-align: center;
-
     @media screen and (max-width: 1199px) {
         margin-bottom: 60px;
+        text-align: center;
     }
 
     @media screen and (min-width: 768px) {
@@ -68,9 +67,9 @@ footer .container {
 .footer-social {
     @media screen and (max-width: 1199px) {
         margin-bottom: 60px;
+        text-align: center;
     }
-    text-align: center;
-
+    
     @media screen and (min-width: 1200px) {
         margin-right: 93px;
     }
