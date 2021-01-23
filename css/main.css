@@ -344,14 +344,14 @@ img {
   width: 100%;
   top: 0;
   left: 0;
-  min-width: 60px;
+  min-height: 60px;
   background-color: #ffffff;
   z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    min-width: 80px;
+    min-height: 80px;
   }
 }
 
@@ -644,7 +644,6 @@ img {
 
 .hero {
   max-width: 1600px;
-  height: 400px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
